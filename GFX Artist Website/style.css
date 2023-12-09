@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@800;900&family=Nova+Cut&display=swap");
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.logolink {
+  text-transform: uppercase;
+  color: #f5b71b;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+body {
+  background-image: url("back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  height: 70px;
+  padding: 0 30px;
+  background-color: #000000eb;
+  position: fixed;
+  width: 100%;
+}
+.hamburger{
+  display: none;
+}
+.menu{
+  display: flex;
+  gap: 30px;
+  font-size: 1.4rem;
+}
+.container {
+  background-color: #000000b8;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 130px 0 75px 0;
+}
+.info {
+  display: grid;
+}
+.info span {
+  margin: 3px 0;
+}
+.txt1 {
+  color: #fff;
+  font-size: 1.3rem;
+}
+#projects{
+  text-align: center;
+}
+#project-title{
+  padding: 20px 0;
+}
+.txt2 {
+  font-family: "Geologica", sans-serif;
+  text-transform: uppercase;
+  font-size: 3.4rem;
+  color: #fff;
+}
+.txt3 {
+  color: goldenrod;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.txt4 {
+  color: white;
+  font-size: 0.9rem;
+}
+.left-section {
+  width: 40%;
+  padding: 35px;
+}
+.right-section {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.button button {
+  margin: 20px 0;
+  background-color: goldenrod;
+  color: #000;
+  border: solid #fff0 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 21px;
+  font-weight: bolder;
+  font-size: 1.01rem;
+}
+.button button:hover {
+  background-color: transparent;
+  color: white;
+  border: solid #73ff00 1px;
+}
+.image img {
+  border-radius: 15px;
+  width: 100%;
+  height: auto;
+}
+.footer-section {
+  background-color: #000000b8;
+  padding: 0 20px;
+}
+.photos img {
+  margin: 10px 20px;
+  width: 25vw;
+}
+.thumbnail-images1 {
+  width: 30vw;
+}
+
+.thumbnails-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.thumbnails-heading {
+  color: #fff;
+}
+.project-heading {
+  font-size: 2.5rem;
+  padding-top: 20px;
+  color: #fff;
+}
+.thumbnail-hover:hover {
+  border: solid #73ff00 1.5px;
+  box-shadow: 0px 0px 10px #73ff00;
+}
+.logo-hover:hover {
+  border: solid #ff0000 1.5px;
+  box-shadow: 0px 0px 10px #ff0000;
+}
+
+.main-footer {
+  background-color: #000000eb;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0 10px 0;
+}
+.main-footer h2 {
+  font-size: 2.3rem;
+  padding: 0 0 20px 0;
+}
+.footer-info {
+  width: 40%;
+  line-height: 26px;
+  text-align: center;
+}
+.footer-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.credit {
+  text-transform: uppercase;
+  color: rgb(0, 247, 255);
+}
+.copyright {
+  margin-top: 40px;
+}
+
+.service-list ul {
+  color: #fff;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.service-list {
+  width: 55%;
+  text-align: center;
+}
+.service-list ul li {
+  margin: 20px;
+}
+.services {
+  background-color: #000000b8;
+}
+.service-heading {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 30px 0;
+}
+.service-list-centre {
+  display: flex;
+  justify-content: center;
+}
+.service-logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.contact {
+  background-color: #000000b8;
+  color: #fff;
+}
+.menu li a{
+  cursor: pointer;
+}
+.menu li a:hover{
+  text-decoration: underline;
+  color: #f5b71b;
+}
+.contact-heading {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.boxing {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px 0 60px 0;
+  justify-content: center;
+}
+.box1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  width: 265px;
+  height: 110px;
+  margin: 10px 40px;
+  border-radius: 20px;
+  padding: 0 3px;
+}
+.box-heading {
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 10px 0;
+}
+
+@media (max-width: 1010px) {
+  .boxing {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .right-section {
+    display: none;
+  }
+
+  .hamburger{
+    display: block;
+    cursor: pointer;
+  }
+  .bar{
+    display: block;
+    background-color: #fff;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+  }
+  .menu{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    top: -300px;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+    flex-direction: column;
+    background-color: #000000eb;
+    padding: 30px 0;
+  }
+  
+  .info{
+    padding: 60px 0 20px 0;
+  }
+  .hamburger.active #bar1{
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active #bar3{
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .hamburger.active #bar2{
+    opacity: 0;
+  }
+  .menu.active {
+    top: 70.3px;
+  }
+  .container {
+    padding: 0;
+    justify-content: flex-start;
+  }
+}
+@media (max-width:640px){
+  .boxing {
+    grid-template-columns: auto;
+  }
+  .box1{
+    width: 280px;
+  }
+}
+@media (max-width: 500px) {
+  .thumbnails-images {
+    display: grid;
+  }
+  .logos {
+    display: grid;
+  }
+  .photos img {
+    width: 80vw;
+  }
+  .footer-info {
+    width: 80%;
+  }
+  .footer-info span {
+    font-size: 0.9rem;
+  }
+  .service-list ul {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 330px) {
+  .footer-heading h2 {
+    font-size: 1.7rem;
+  }
+  .txt2 {
+    font-family: "Geologica", sans-serif;
+    text-transform: uppercase;
+    font-size: 15vw;
+    color: #fff;
+  }
+  .txt3 {
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 6vw;
+  }
+  .txt4 {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .button button {
+    font-size: 8vw;
+  }
+  .logo a {
+    font-size: 8vw;
+  }
+}
+@media (max-width:290px){
+  .service-logo{
+    font-size: 8vw;
+  }
+  .box1{
+    width: 80vw;
+  }
+  .email{
+    font-size: 5vw
+  }
+  .contact-heading h1{
+    font-size: 12vw;
+  }
+  .service-list ul {
+    grid-template-columns: auto ;
+  }
+}
+@media (max-width: 200px) {
+  .logo {
+    display: none;
+  }
+  .project-heading {
+    font-size: 15vw;
+  }
+  .service-title{
+    font-size: 15vw;
+  }
+}

@@ -1,0 +1,15 @@
+.error1 img{
+    width: 80%;
+    height: auto;
+}
+.error1{
+    text-align: center;
+    padding: 0 0 50px 0;
+
+}
+.go-to-home{
+    background-color: rgb(54, 51, 228);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}

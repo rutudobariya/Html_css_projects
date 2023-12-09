@@ -1,0 +1,48 @@
+.contact-form-btn button {
+    background-color: green;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  .item-image2 {
+    width: 300px;
+  }
+  .main-view-section{
+    display: flex;
+    padding: 140px 50px 50px 50px;
+    gap: 50px;
+  }
+#more-desc{
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media (max-width:800px){
+    .main-view-section{
+        display: grid;
+        padding: 140px 20px 50px 20px;
+        gap: 20px;
+      }
+      .view-img img{
+        width: 50%;
+        height: auto;
+      }
+      .section-view-left{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+      .contact-form-btn{
+        text-align: center;
+    }
+    .contact-form-btn button{
+        width: 100%;
+    }
+}

@@ -1,0 +1,59 @@
+.register-page-container{
+    padding: 150px 0;
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.register-form input,.option-checkoutage{
+    border: solid rgb(54, 51, 228) 1px;
+    border-width: 0 0 1px 0px;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 8px 5px;
+    margin: 10px 0;
+}
+.gender label{
+    display: flex;
+    width: 15%;
+    align-items: center;
+    gap: 10px;
+}
+.register-page{
+    display: flex;
+    justify-content: center;
+}
+.register-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(54, 51, 228);
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 20px;
+    text-align: center;
+}
+
+#create-acc-header{
+    text-decoration: underline; 
+    font-size: 2rem; 
+    margin: 20px 0;
+    text-align: center;
+}
+.register-notice{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+@media(max-width:390px){
+    #create-acc-header{
+        font-size: 8vw;
+    }
+    .register-form input,.option-checkoutage{
+        width: 100%;
+    }
+    .register-form{
+        padding: 0 10px;
+    }
+}

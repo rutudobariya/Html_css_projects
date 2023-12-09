@@ -1,0 +1,30 @@
+@media (max-width:620px){
+    .hamburger{
+        display: block;
+    }
+    .menu{
+        position: absolute;
+        top: -400px;
+        flex-direction: column;
+        left: 0;
+        justify-content: center;
+        align-items: center ;
+        width: 100%;
+        gap: 30px;
+        transition: 0.7s ease-in-out;
+    }
+    .active{
+        top: 60px;
+    }
+    .active {
+        #bar1{
+            transform: translateY(7px) rotate(45deg);
+        }
+        #bar2{
+            opacity: 0;
+        }
+        #bar3{
+            transform: translateY(-5.5px) rotate(-45deg);
+        }
+    }
+}
